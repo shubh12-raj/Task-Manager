@@ -1,0 +1,22 @@
+/* Pagecomp.css */
+
+.Page {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between columns */
+  align-items: flex-start; /* Align the columns at the top */
+  padding: 20px;
+  gap: 16px; /* Space between the columns */
+}
+
+.Col1, .Col2, .Col3, .Col4, .Col5 {
+  flex: 1; /* Make each column take an equal amount of space */
+  min-width: 200px; /* Ensure columns don't get too small */
+  max-width: 300px; /* Limit the maximum width for each column */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between items inside the column */
+}
+
+.NavBar {
+  margin-bottom: 10px; /* Add spacing below the Navbar if needed */
+}

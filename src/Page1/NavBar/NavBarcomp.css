@@ -1,0 +1,50 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 8px;
+}
+
+.todo-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-left: 14px;
+}
+
+.todo-count {
+    font-size: 14px;
+    color: #777;
+    margin-left: 14px;
+
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 50%;
+
+}
+
+.plus-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.ellipsis-icon {
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,65 @@
+.card {
+    width:300px;
+    padding: 16px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .tag {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #555;
+    background-color: transparent; /* Remove the background color */
+  }
+  
+  .icon img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-icon {
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    padding: 1.9px 8px;
+    border-radius: 4px;
+
+  }
+  
+  .status-text {
+    font-size: 11px;
+    color: #555;
+  }
+  .dot {
+    margin-right: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: grey; /* Color of the dot */
+    border-radius: 50%; /* Make it circular */
+    display: inline-block;
+  }

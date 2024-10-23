@@ -1,0 +1,7 @@
+.mainpage {
+  display: flex;            /* Flex container for flexible alignment */
+  flex-direction: column;   /* Align items vertically */
+  justify-content: flex-start; /* Align items from the top */
+  align-items: flex-start;     /* Align items from the start of the container */
+  padding: 10px;              /* Optional: Add padding if needed */
+}
